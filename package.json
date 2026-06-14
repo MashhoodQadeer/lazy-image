@@ -1,12 +1,20 @@
 {
   "name": "lazy-image",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "description": "A lightweight, performant lazy-loading image utility for React.",
-  "keywords": ["react", "lazy-load", "performance", "images"],
+  "keywords": [
+    "react",
+    "lazy-load",
+    "performance",
+    "images"
+  ],
   "license": "MIT",
   "author": "Mashhood Qadeer",
   "scripts": {
+    "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
@@ -18,6 +26,7 @@
     "@rollup/plugin-terser": "^1.0.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
-    "rollup": "^4.62.0"
+    "rollup": "^4.62.0",
+    "rollup-plugin-postcss": "^4.0.2"
   }
 }
