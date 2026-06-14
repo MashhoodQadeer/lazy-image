@@ -12,7 +12,7 @@ A modern, high-performance, and **zero-dependency** React utility for lazy-loadi
 
 ## Installation
 
-`npm install react-lazy-image-utility`
+`npm install @mashhoodqadeer/lazy-image`
 
 ### Usage
 1.  Ready-to-use Component
