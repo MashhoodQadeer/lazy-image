@@ -1,0 +1,23 @@
+{
+  "name": "lazy-image",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "A lightweight, performant lazy-loading image utility for React.",
+  "keywords": ["react", "lazy-load", "performance", "images"],
+  "license": "MIT",
+  "author": "Mashhood Qadeer",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/preset-react": "^7.29.7",
+    "@rollup/plugin-babel": "^7.1.0",
+    "@rollup/plugin-commonjs": "^29.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^1.0.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "rollup": "^4.62.0"
+  }
+}
