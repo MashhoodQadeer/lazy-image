@@ -19,8 +19,9 @@ export default {
       exclude: 'node_modules/**'
     }),
     postcss({
-      extract: true, 
-      minimize: true
+      extract: false, 
+      minimize: true,
+      inject: true,
     })
   ]
 };
